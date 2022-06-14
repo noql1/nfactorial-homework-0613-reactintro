@@ -1,0 +1,43 @@
+
+.Pics{ 
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+} 
+.image { 
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    
+}
+.image img {
+    z-index: 10;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.image div {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    z-index: 22;
+    font-size: 60px;
+    color:rgba(70,255,13, 0.6);
+    font-family: 'Inconsolata', monospace;
+
+}
+@media only screen and (max-width: 600px) {
+    .Pics{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .image{
+        display: flex;
+        width: 100%;
+    }
+  }
+
+
+
