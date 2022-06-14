@@ -4,8 +4,8 @@ import NavBar from "./NavBar";
 function App() {
   return (
     <div className='App'> 
-    <Pics/>
     <NavBar/>
+    <Pics/>
     </div>
     )
 }

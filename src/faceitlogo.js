@@ -1,6 +1,6 @@
 import * as React from "react"
 
-const SvgComponent = (props) => (
+const FaceitLogo = (props) => (
   <svg
     height={1520}
     viewBox="29.3 101.1 451.7 357.9"
@@ -19,4 +19,4 @@ const SvgComponent = (props) => (
   </svg>
 )
 
-export default SvgComponent
+export default FaceitLogo
